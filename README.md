@@ -90,3 +90,6 @@ This script significantly reduces the manual work, allowing me to automate the u
 ## Conclusion
 
 This Python script automates the tedious process of updating the web application’s item list each month, allowing me to save hours of manual work. By leveraging Python and SQL, I was able to streamline the workflow while maintaining data accuracy and consistency. Testing on the development server first ensures that no issues arise before updating the production system, adding an extra layer of safety.
+
+## Flow Diagram
+![Flow diagram of how the application works](https://github.com/ToaHeck/Python-Update-List/blob/main/img/updateItemList-Diagram.png)
