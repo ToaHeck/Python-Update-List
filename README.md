@@ -24,7 +24,7 @@ This script significantly reduces the manual work, allowing me to automate the u
    Every month, I must download the latest item list from SAP in `.xlsx` format from the relevant department. I then rename this file to **newTable.xlsx** for consistency.
 
 2. **Prepare the Script**:  
-   The `updateList.py` script needs to be in the same directory as the **newTable.xlsx** file. This ensures the script can easily access and process the latest data from the Excel file.
+   The `updateItemList.py` script needs to be in the same directory as the **newTable.xlsx** file. This ensures the script can easily access and process the latest data from the Excel file.
 
 3. **Testing on the Development Server (dev)**:  
    The script first connects to our **development server** ("dev"). This is done for safety and redundancy, as the development server is a backup. Running the script on dev allows me to check that everything works as expected before applying the update to production.
@@ -47,7 +47,7 @@ This script significantly reduces the manual work, allowing me to automate the u
 ### Step-by-Step Process
 
 1. **Download and Rename the Excel File**:  
-   Download the Excel file from the relevant department, and rename it to **newTable.xlsx**. Place this file in the same directory as the `updateList.py` script.
+   Download the Excel file from the relevant department, and rename it to **newTable.xlsx**. Place this file in the same directory as the `updateItemList.py` script.
 
 2. **Load Config and Excel File**:  
    The script loads a configuration file (`config.json`) containing connection details and the new item list from the Excel file (`newTable.xlsx`).
